@@ -9,7 +9,7 @@ import { Zibalogin123 } from '../pages/loginpagefile';
 
 test('logintest1',async({page})=> {
   //this will redirect to login page
-  await page.goto('https://development.ziba-property.com/login')
+  await page.goto('https://staging.ziba-property.com/login')
  // page.delayed (3000)
    await page.pause();
   const loginpageziba=new Zibalogin123(page)
